@@ -16,7 +16,8 @@ exactly the kind of error you will run into constantly once you start
 writing your own code, so it is worth getting comfortable with it now.
 
 How to run this script:
-  Open a terminal in VS Code (Terminal > New Terminal), make sure your
+  Open a 
+ in VS Code (Terminal > New Terminal), make sure your
   virtual environment is active and your directory end with 
   "INTEG275_PCA_Starter_Repo>", then run:
 
@@ -24,6 +25,8 @@ How to run this script:
 
 Or click on the "Run Python File" button in VS Code (triangle at the top right).
 """
+
+import pandas as pd
 
 penguins = pd.read_csv("data/penguins.csv", na_values="NA")
 
